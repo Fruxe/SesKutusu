@@ -1,0 +1,42 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+
+# Portable library, recordings, downloads and local preferences
+data/
+downloads/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.opus
+*.aiff
+*.aif
+*.m4a
+*.mp4
+
+# Generated distributions and local investigation material
+build/
+dist/
+_internal/
+work/
+*.spec
+*.exe
+*.dll
+*.pyd
+*.zip
+*.log
+*.lock
+*.dmp
+*.env
+.env*
+!.env.example
+Thumbs.db
+.DS_Store
